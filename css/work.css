@@ -1,0 +1,454 @@
+
+.work  {
+  height: 650px;
+  background-image: url(/css/brick-wall-dark.png);
+  float: none;
+  border-bottom: 2px solid #f1efed;
+
+
+
+
+
+
+}
+
+
+.description1{
+
+    background-repeat: no-repeat;
+    background-position:top center;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    padding: 70px 10px;
+    font-family: cursive;
+    float: left;
+    width: 24%;
+    height: 400px;
+
+
+
+}
+.photomob{
+    float: left;
+    width: 220px;
+    height: 400px;
+    margin-top: 50px;
+
+
+   }
+.photomob div{
+    position: absolute;
+    background-color: #f1efed;
+
+
+}
+
+#back{
+     width: 200px;
+   height: 380px;
+   border: 3px solid #999999;
+    border-radius: 25px;
+
+    position: absolute;
+    margin: 10px;
+}
+#front{
+    width: 190px;
+    height: 370px;
+    border: 1px solid #999999;
+    border-radius: 25px;
+    z-index: 1;
+    position: absolute;
+    margin: 15px;
+}
+#speaker{
+    width: 50px;
+    height: 3px;
+    border: 2px solid #999999;
+    border-radius: 20px;
+    margin:  30px 90px;
+    z-index: 2;
+
+
+}
+
+#topbutton {
+   width: 25px;
+    border: 2px solid #f1efed;
+    margin: 7px 145px;
+}
+#leftbutton{
+    width: 0px;
+    height: 10px;
+    border: 2px solid #f1efed;
+    margin:50px 7px;
+
+}
+#screen{
+     width: 170px;
+    height: 280px;
+    border: 1px solid #999999;
+    margin: 50px 26px;
+    background-color: aqua;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+#leftbutton1{
+   width: 0px;
+    height: 20px;
+    border: 2px solid #f1efed;
+    margin: 70px 7px;
+    position: absolute;
+}
+#leftbutton2{
+   width: 0px;
+    height: 20px;
+    border: 2px solid #f1efed;
+    margin: 100px 7px;
+    position: absolute;
+}
+#button{
+    width: 30px;
+	height: 30px;
+	 border: 1px solid #999999;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: 345px 0 0 100px;
+    z-index: 3;
+}
+#inbutton{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    z-index: 4;
+    margin: 9px 9px;
+}
+
+
+
+
+
+
+
+
+.photoPC {
+    float: left;
+    margin-left: 2%;
+    margin-top: 20px;
+    width: 50%;
+    height: 60%;
+   position: relative;
+
+
+
+}
+.photoPC div {
+    position: absolute;
+    background-color: #f1efed;
+}
+#around{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #999999;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    float: left;
+
+}
+#circle1 {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+#circle2 {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    margin: 10px 30px;
+}
+#circle3 {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    margin: 10px 50px;
+}
+#url{
+    width: 40%;
+    height: 15px;
+    border: 1px solid #999999;
+    margin: 15px 130px;
+
+}
+#url a{
+    color: black;
+    text-decoration: none;
+
+
+}
+#search{
+    width: 20%;
+    height: 15px;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    margin: 15px 75%;
+    background-image: url(/css/Search.png);
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#contentPC{
+    width:100%;
+    height: 90%;
+    border: 2px solid #999999;
+    margin-top:40px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width: 425px){
+
+    .work{
+        float: none;
+        height: 1100px;
+    }
+    .description1{
+        float: none;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 0px;
+        padding: 50px 0;
+
+    }
+    .photomob{
+        float: inherit;
+        margin: 10px auto;
+
+    }
+
+
+    .photoPC{
+    float: inherit;
+    margin: 0 auto;
+    width: 310px;
+    height: 240px;
+    }
+#around{
+    width: 310px;
+    height: 240px;
+    border: 2px solid #999999;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    float: left;
+}
+#circle1 {
+    width: 7px;
+    height: 7px;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+#circle2 {
+    width: 7px;
+    height: 7px;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    margin: 10px 30px;
+}
+#circle3 {
+    width: 7px;
+    height: 7px;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    margin: 10px 50px;
+}
+#url{
+    width: 140px;
+    height: 15px;
+    border: 1px solid #999999;
+    margin: 10px 70px;
+
+}
+#url a{
+    color: black;
+    text-decoration: none;
+    font-size: 10pt;
+    padding: 0;
+
+}
+#search{
+    width: 60px;
+    height: 12px;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    margin: 10px 230px;
+    background-image: url(/css/Search.png);
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#contentPC{
+    width: 310px;
+    height: 200px;
+    border: 2px solid #999999;
+    margin-top:40px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 581px){
+    .work{
+      height: 1000px;
+        margin-top: 0px;
+    }
+    .description1{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        padding-bottom: 5px;
+    }
+    .photoPC{
+        float: none;
+        width: 80%;
+        height: 26%;
+        margin : 680px auto 0 auto;
+        position: relative;
+    }
+    #search{
+        width: 23%;
+        height: 10px;
+        padding: 0;
+
+    }
+    #url{
+        margin-left: 25%;
+        width: 40%;
+        height: 15px;
+        margin-top: 10px;
+    }
+    .photomob{
+        float: left;
+        margin: 0 28%;
+    }
+    .photoPC a{
+        text-align: left;
+        font-family: cursive;
+        font-size: 10pt;
+
+    }
+    #circle1{
+        width: 8px;
+        height: 8px;
+    }
+    #circle2{
+        width: 8px;
+        height: 8px;
+    }
+    #circle3{
+        width: 8px;
+        height: 8px;
+    }
+}
+@media screen and (min-width: 582px) and (max-width: 801px){
+    .work{
+      height: 1000px;
+        margin-top: 0px;
+    }
+
+    .description1{
+        width: 45%;
+        margin: 0;
+        padding: 40px auto ;
+        text-align: center;
+        height: auto;
+        background-position: center top;
+
+
+    }
+    .photomob{
+        float: left;
+        margin: 10px 0 0 55%;
+        position: absolute;
+    }
+    .photoPC{
+        float: none;
+        width: 90%;
+        height: 40%;
+        margin: 440px auto 0 auto;
+        position: relative;
+    }
+}
+@media screen and (min-width: 802px) and (max-width: 1000px){
+    .work{
+      height: 700px;
+      margin-top: 0px;
+    }
+
+    .description1{
+        float: none;
+        width: 90%;
+        margin:0 5%;
+        padding: 50px 0 ;
+        text-align: center;
+        height: auto;
+        background-position: center top;
+        position: absolute;
+
+    }
+    .photomob{
+        margin: 200px 10px 0px 10px ;
+     position: absolute;
+
+    }
+    .photoPC{
+
+        width: 65%;
+        height: 50%;
+
+        margin: 200px 0 0 30%;
+
+    }
+}
+@media screen and (min-width: 1001px){
+
+.work{
+              height: 660px;
+              margin-top: 0px;
+    }
+    .photoPC{
+       width: 48%;
+        height: 55%;
+        margin-left: 24%
+
+    }
+    .photomob{
+        margin: 10px 0 0 26% ;
+        position: absolute;
+
+    }
+
+}
+
+
+
+
+
+
+

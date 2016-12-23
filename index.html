@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>PORTFOLIO</title>
+
+    <!-- Bootstrap -->
+   <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+        
+
+  </head>
+  <body>
+    <div class="content">
+        <div class="header" >
+           
+            <div class="name"><h1><p>Ostapenko</p> <p>Nazariy</p></h1> <h2><p>Web developer</p></h2></div>
+             <div class="logo1"></div>
+            <div class="info ">
+                <p class="1" >   02.09.1996 <img src="born.png"> </p>
+                <p class="2"  > 093-023-55-29 <img src="phone.png"> </p>
+                <p class="3" >   n.ostapello@gmail.com <img src="mail.png"></p>
+                <p class="4" >  Vinnitsa <img src="adress.png"></p>
+                <p class="5" ><form action="index1.html"><button type="submit">UA</button></form> </p>
+            </div>
+            
+            
+        </div>
+        <div class="mname"><h1><p>Ostapenko Nazariy</p></h1> <h2><p>Web developer</p></h2></div>
+        <div class="carier" id="open"></div>
+        <div class="can" >
+                   <section id="ex2">
+		                <div class="post" id="left" ></div>
+		                <div class="post last" id="rigth"></div>
+	               </section>
+        </div>
+        
+        <div class="must hidden" style="background-image:url(musten.png)" > </div>
+        <div class="aboutme hidden" style="background-image:url(aboutmeen.png)" > </div> 
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="footer"><p>disign by Ostapenko Nazariy 2016</p></div>
+
+
+	
+	    
+      
+          <script type="text/javascript">
+   $(document).on("scroll", function() {
+  $('.hidden').each(function() {
+    if ($(this).position().top <= $(document).scrollTop() + $(window).height()) {
+      $(this).animate({
+        opacity: 2
+      }, 2000);
+    }
+  });
+});
+          </script> 
+          <script>
+          $(document).ready(function(){
+	var h = $(window).height();
+    $("#ex1 .post").addClass('animated zoomIn');
+	$(window).scroll(function(){
+		if ( ($(this).scrollTop()+h) >= $("#ex2").offset().top) {
+			$("#ex2 .post").css({visibility:"visible"});
+			$("#ex2 .post").eq(0).addClass('animated bounceInLeft');
+			$("#ex2 . іpost").eq(2).addClass('animated bounceInRight');
+		} 
+		if ( $(this).scrollTop() == 0 ) {
+			$("#ex2 .post").each(function(){
+				if ( $(this).hasClass('last') ) {
+					$(this).removeClass().addClass('post last');
+				} else {
+					$(this).removeClass().addClass('post');
+				}
+				$(this).css({visibility:"hidden"});
+			});
+		}
+	});
+});
+          </script> 
+  
+
+       
+	
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body> 
+</html>

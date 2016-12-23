@@ -1,0 +1,365 @@
+body{
+    background-color: #f1efed;
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    width: 15px;
+    height: 15px;
+}
+
+.logo{
+    width: 30%;
+    height: 200px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 200px;
+    border: 1px solid;
+    float: left;
+}
+.info {
+
+    margin-top: 20px;
+    width:30%;
+    height: 200px;
+    text-align: right;
+    margin: 0 70%;
+
+}
+
+.header {
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 200px;
+    border-bottom: 3px solid #d9dcdb;
+}
+
+.content {
+    width: 80% ;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.name {
+    float: left;
+}
+name h1{
+    color: #013440;
+    font-family: inherit;
+    padding-left: 0px;
+}
+.name h2{
+    color: #027373;
+}
+h2 {
+    text-align: center;
+    color: darkgray;
+}
+.carier{
+    margin-top: 20px;
+    height: 250px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(carieren.png);
+
+}
+
+.can{
+    margin-top: 30px;
+    height: 330px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+
+
+
+}
+.must{
+    margin-top: 0px;
+    height: 380px;
+    width: 50%;
+    background-size: 90%;
+    background-position: top;
+    background-repeat: no-repeat;
+    float: left;
+
+}
+.aboutme{
+    height:380px;
+    width: 50%;
+    margin-left: 50%;
+    background-size: 80%;
+    background-position: top;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+.hidden {
+  opacity: 0;
+}
+.card IMG { position: relative;
+}
+   .honest { left: 64%; top: 180px; width: 25%;height: 25%; }
+   .energy { left: -15%;; top: 130px; width: 29%;height: 29%; }
+    .vidpovid { left: -19%;; top: 120px; width: 40%;height: 40%; }
+#left {
+    float: left;
+    height: 330px;
+    background-size: 90%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-image: url(can1en.png);
+    width: 50%;
+
+}
+
+#rigth {
+    float: right;
+    height: 330px;
+    background-size: 90%;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-image: url(can2en.png);
+    width: 50%;
+    padding: 0px;
+}
+
+.footer{
+    height: 30px;
+    color: #d9dcdb;
+    text-align: right;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+
+
+}
+
+
+
+/* Адаптация под екраны до 600px (мобильние устройства) */
+
+@media screen and (max-width: 600px){
+
+    .header{
+        background-position: left center;
+        background-size: 170px 170px;
+    }
+    .logo {
+    width: 40%;
+    height: 160px;
+    background-image: url(logo.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.name {
+    display: none;
+    width: auto;
+    text-align: center;
+    padding: 0px;
+    float: none;
+
+}
+
+.mname p {
+    text-align: center;
+    line-height: 0.5;
+}
+
+.mname h2 {
+    color: #027373;
+}
+.info {
+    text-align: right;
+    padding-top: 0px;
+    float: none;
+    font-size: 60%;
+    width: 40%;
+    margin-left: 60%;
+}
+
+
+.carier {
+    background-image: url(cariermoben.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: auto;
+    height: 400px;
+    float:inherit;
+    margin-top: 0px;
+}
+
+#left {
+    float: left;
+    height: 380px;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(canmoben.png);
+    width: 100%;
+
+}
+ #rigth{
+     display: none;
+    }
+.must{
+    top: 5%;
+    width: 100%;
+    float: none;
+    background-size: contain;
+    height: 300px;
+    margin-top: 50px;
+    background-position: center;
+    }
+
+.aboutme{
+    height:380px;
+    width: 100%;
+    margin-left: 0%;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.content {
+    width: 90% ;
+    height: auto;
+    margin: 0 auto;
+}
+}
+@media screen and (min-width: 375px) and (max-width: 600px){
+    .info{
+        font-size: 76%;
+    }
+}
+
+/* Адаптация под екраны от 600px */
+@media screen and (min-width: 601px){
+    .mname{
+        display: none;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 768px){
+
+    .can {
+    height: 200px;
+    }
+
+    #left {
+    float: left;
+    height: 200px;
+    }
+
+    #rigth {
+    float: right;
+    height: 200px;
+    }
+    .must{
+        height: 200px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .can {
+    height: 270px;
+    }
+
+    #left {
+    float: left;
+    height: 270px;
+    }
+
+    #rigth {
+    float: right;
+    height: 270px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+
+    .carier{
+        background-size: 90%;
+    }
+
+    .can {
+    height: 380px;
+    }
+
+    #left {
+    float: left;
+    height: 380px;
+    }
+
+    #rigth {
+    float: right;
+    height: 380px;
+    }
+    .must{
+        height: 400px;
+    }
+    .aboutme{
+        height: 430px;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 2000px){
+
+
+    p{font-size: 20px;}
+    .carier{
+        height: 400px;
+    }
+
+    .can {
+    height: 500px;
+    }
+
+    #left {
+    float: left;
+    height: 500px;
+    }
+
+    #rigth {
+    float: right;
+    height: 500px;
+    }
+    .must{
+        height: 550px;
+    }
+    .aboutme{
+        height: 550px;
+    }
+}
+@media screen and (min-width: 2000px) {
+    .carier{
+        height: 500px;
+    }
+    .can {
+    height: 640px;
+    }
+
+    #left {
+    float: left;
+    height: 640px;
+    }
+
+    #rigth {
+    float: right;
+    height: 640px;
+    }
+    .must{
+        height: 700px;
+
+    }
+    .aboutme{
+        height: 800px;
+    }
+}
+
+
+
+
+
+
